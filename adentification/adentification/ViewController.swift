@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Darwin
 
 class ViewController: UIViewController, FlurryAdNativeDelegate {
     
@@ -17,7 +18,29 @@ class ViewController: UIViewController, FlurryAdNativeDelegate {
     @IBOutlet weak var image: UIImageView!
     
     @IBOutlet weak var summary: UILabel!
+
+    /*
+    @IBAction func choice0(sender: UIButton) {
+        var asset = nativeAd.assetList;
+        for item in asset {
+            if item.name == "source" {
+                sender.setTitle(item.value, forState: UIControlState.Normal)
+            }
+        }
+    }
     
+    @IBAction func choice1(sender: UIButton) {
+    }
+    
+    @IBAction func choice2(sender: UIButton) {
+    }
+    */
+    
+    @IBOutlet weak var choice1: UIButton!
+    
+    @IBOutlet weak var choice2: UIButton!
+    
+    @IBOutlet weak var choice3: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +72,16 @@ class ViewController: UIViewController, FlurryAdNativeDelegate {
                     if let actualImageData = imageData {
                         image.image = UIImage(data: actualImageData);
                     }
+                }
+            }
+            if item.name == "source" {
+                var correctChoice = Int(arc4random_uniform(3))
+                if correctChoice == 0 {
+                    choice1.setTitle(item.value, forState: UIControlState.Normal)
+                } else if correctChoice == 1 {
+                    choice2.setTitle(item.value, forState: UIControlState.Normal)
+                } else {
+                    choice3.setTitle(item.value, forState: UIControlState.Normal)
                 }
             }
         }
