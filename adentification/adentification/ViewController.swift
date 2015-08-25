@@ -11,6 +11,7 @@ import Darwin
 
 class ViewController: UIViewController, FlurryAdNativeDelegate {
     
+    
     let nativeAd = FlurryAdNative(space: "Ad")
 
     @IBOutlet weak var headline: UILabel!
@@ -92,5 +93,23 @@ class ViewController: UIViewController, FlurryAdNativeDelegate {
             }
         }
     }
+    /*
+    @IBAction func choice0(sender: UIButton) {
+        var asset = nativeAd.assetList;
+        for item in asset {
+            if item.name == "source" {
+                if item.value == choice1.titleLabel {
+                    
+                }
+            }
+        }
+    }
+    
+    @IBAction func choice1(sender: UIButton) {
+    }
+    
+    @IBAction func choice2(sender: UIButton) {
+    }
+    */
 }
 
