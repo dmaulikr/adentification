@@ -78,9 +78,15 @@ class ViewController: UIViewController, FlurryAdNativeDelegate {
                 var correctChoice = Int(arc4random_uniform(3))
                 if correctChoice == 0 {
                     choice1.setTitle(item.value, forState: UIControlState.Normal)
+                    choice2.setTitle("General Motor", forState: UIControlState.Normal)
+                    choice3.setTitle("Geico", forState: UIControlState.Normal)
                 } else if correctChoice == 1 {
+                    choice1.setTitle("Brisk Iced Tea", forState:UIControlState.Normal)
                     choice2.setTitle(item.value, forState: UIControlState.Normal)
+                    choice3.setTitle("Marriot", forState: UIControlState.Normal)
                 } else {
+                    choice1.setTitle("McDonald", forState: UIControlState.Normal)
+                    choice2.setTitle("Papa John's", forState: UIControlState.Normal)
                     choice3.setTitle(item.value, forState: UIControlState.Normal)
                 }
             }
