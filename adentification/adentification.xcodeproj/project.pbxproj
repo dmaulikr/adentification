@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B389E5B51B8CE85E00C7A331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389E5B41B8CE85E00C7A331 /* AppDelegate.swift */; };
+		B389E5B71B8CE85E00C7A331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389E5B61B8CE85E00C7A331 /* ViewController.swift */; };
+		B389E5BA1B8CE85E00C7A331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B389E5B81B8CE85E00C7A331 /* Main.storyboard */; };
+		B389E5BC1B8CE85E00C7A331 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B389E5BB1B8CE85E00C7A331 /* Images.xcassets */; };
+		B389E5BF1B8CE85E00C7A331 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B389E5BD1B8CE85E00C7A331 /* LaunchScreen.xib */; };
+		B389E5CB1B8CE85E00C7A331 /* adentificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B389E5CA1B8CE85E00C7A331 /* adentificationTests.swift */; };
+		B389E5D71B8CEC1300C7A331 /* libFlurry_6.7.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5D61B8CEC1300C7A331 /* libFlurry_6.7.0.a */; };
+		B389E5DE1B8CECDC00C7A331 /* libFlurryAds_6.7.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5DD1B8CECDC00C7A331 /* libFlurryAds_6.7.0.a */; };
+		B389E5E01B8CED0900C7A331 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5DF1B8CED0900C7A331 /* libz.dylib */; };
+		B389E5E21B8CED1500C7A331 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5E11B8CED1500C7A331 /* SystemConfiguration.framework */; };
+		B389E5E41B8CED1D00C7A331 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5E31B8CED1D00C7A331 /* CoreMedia.framework */; };
+		B389E5E61B8CED2A00C7A331 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5E51B8CED2A00C7A331 /* AVFoundation.framework */; };
+		B389E5E81B8CED3400C7A331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5E71B8CED3400C7A331 /* UIKit.framework */; };
+		B389E5EA1B8CED4100C7A331 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5E91B8CED4100C7A331 /* MediaPlayer.framework */; };
+		B389E5EC1B8CED4600C7A331 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5EB1B8CED4600C7A331 /* StoreKit.framework */; };
+		B389E5EE1B8CED5A00C7A331 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5ED1B8CED5A00C7A331 /* CoreGraphics.framework */; };
+		B389E5F01B8CED6000C7A331 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B389E5EF1B8CED6000C7A331 /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B389E5C51B8CE85E00C7A331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B389E5A71B8CE85E00C7A331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B389E5AE1B8CE85E00C7A331;
+			remoteInfo = adentification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B389E5AF1B8CE85E00C7A331 /* adentification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adentification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B389E5B31B8CE85E00C7A331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B389E5B41B8CE85E00C7A331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B389E5B61B8CE85E00C7A331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B389E5B91B8CE85E00C7A331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B389E5BB1B8CE85E00C7A331 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B389E5BE1B8CE85E00C7A331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B389E5C41B8CE85E00C7A331 /* adentificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adentificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B389E5C91B8CE85E00C7A331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B389E5CA1B8CE85E00C7A331 /* adentificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adentificationTests.swift; sourceTree = "<group>"; };
+		B389E5D41B8CEC1300C7A331 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		B389E5D51B8CEC1300C7A331 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
+		B389E5D61B8CEC1300C7A331 /* libFlurry_6.7.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.7.0.a; sourceTree = "<group>"; };
+		B389E5D81B8CEC3000C7A331 /* FlurryAdNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNative.h; sourceTree = "<group>"; };
+		B389E5D91B8CEC3000C7A331 /* FlurryAdNative+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlurryAdNative+Private.h"; sourceTree = "<group>"; };
+		B389E5DA1B8CEC3000C7A331 /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		B389E5DB1B8CEC3000C7A331 /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		B389E5DC1B8CEC3000C7A331 /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeStyle.h; sourceTree = "<group>"; };
+		B389E5DD1B8CECDC00C7A331 /* libFlurryAds_6.7.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryAds_6.7.0.a; path = "../../../Downloads/Flurry iPhone SDK viPhone 6-2/Flurry-iOS-6.7.0/FlurryAds/libFlurryAds_6.7.0.a"; sourceTree = "<group>"; };
+		B389E5DF1B8CED0900C7A331 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B389E5E11B8CED1500C7A331 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B389E5E31B8CED1D00C7A331 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B389E5E51B8CED2A00C7A331 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B389E5E71B8CED3400C7A331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B389E5E91B8CED4100C7A331 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B389E5EB1B8CED4600C7A331 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B389E5ED1B8CED5A00C7A331 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B389E5EF1B8CED6000C7A331 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B389E5F11B8CEDA800C7A331 /* adentification-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "adentification-Bridging-Header.h"; sourceTree = "<group>"; };
+		B389E5F21B8CF0DC00C7A331 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		B389E5F31B8CF12000C7A331 /* FlurryAdError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdError.h; sourceTree = "<group>"; };
+		B389E5F41B8CF16300C7A331 /* FlurryAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		B389E5F51B8CF1C100C7A331 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdTargeting.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B389E5AC1B8CE85E00C7A331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B389E5F01B8CED6000C7A331 /* AdSupport.framework in Frameworks */,
+				B389E5EE1B8CED5A00C7A331 /* CoreGraphics.framework in Frameworks */,
+				B389E5EC1B8CED4600C7A331 /* StoreKit.framework in Frameworks */,
+				B389E5EA1B8CED4100C7A331 /* MediaPlayer.framework in Frameworks */,
+				B389E5E81B8CED3400C7A331 /* UIKit.framework in Frameworks */,
+				B389E5E61B8CED2A00C7A331 /* AVFoundation.framework in Frameworks */,
+				B389E5E41B8CED1D00C7A331 /* CoreMedia.framework in Frameworks */,
+				B389E5E21B8CED1500C7A331 /* SystemConfiguration.framework in Frameworks */,
+				B389E5E01B8CED0900C7A331 /* libz.dylib in Frameworks */,
+				B389E5DE1B8CECDC00C7A331 /* libFlurryAds_6.7.0.a in Frameworks */,
+				B389E5D71B8CEC1300C7A331 /* libFlurry_6.7.0.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389E5C11B8CE85E00C7A331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B389E5A61B8CE85E00C7A331 = {
+			isa = PBXGroup;
+			children = (
+				B389E5F11B8CEDA800C7A331 /* adentification-Bridging-Header.h */,
+				B389E5EF1B8CED6000C7A331 /* AdSupport.framework */,
+				B389E5ED1B8CED5A00C7A331 /* CoreGraphics.framework */,
+				B389E5EB1B8CED4600C7A331 /* StoreKit.framework */,
+				B389E5E91B8CED4100C7A331 /* MediaPlayer.framework */,
+				B389E5E71B8CED3400C7A331 /* UIKit.framework */,
+				B389E5E51B8CED2A00C7A331 /* AVFoundation.framework */,
+				B389E5E31B8CED1D00C7A331 /* CoreMedia.framework */,
+				B389E5E11B8CED1500C7A331 /* SystemConfiguration.framework */,
+				B389E5DF1B8CED0900C7A331 /* libz.dylib */,
+				B389E5B11B8CE85E00C7A331 /* adentification */,
+				B389E5C71B8CE85E00C7A331 /* adentificationTests */,
+				B389E5B01B8CE85E00C7A331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B389E5B01B8CE85E00C7A331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B389E5AF1B8CE85E00C7A331 /* adentification.app */,
+				B389E5C41B8CE85E00C7A331 /* adentificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B389E5B11B8CE85E00C7A331 /* adentification */ = {
+			isa = PBXGroup;
+			children = (
+				B389E5DD1B8CECDC00C7A331 /* libFlurryAds_6.7.0.a */,
+				B389E5D81B8CEC3000C7A331 /* FlurryAdNative.h */,
+				B389E5D91B8CEC3000C7A331 /* FlurryAdNative+Private.h */,
+				B389E5DA1B8CEC3000C7A331 /* FlurryAdNativeAsset.h */,
+				B389E5DB1B8CEC3000C7A331 /* FlurryAdNativeDelegate.h */,
+				B389E5DC1B8CEC3000C7A331 /* FlurryAdNativeStyle.h */,
+				B389E5D41B8CEC1300C7A331 /* Flurry.h */,
+				B389E5D51B8CEC1300C7A331 /* FlurryWatch.h */,
+				B389E5D61B8CEC1300C7A331 /* libFlurry_6.7.0.a */,
+				B389E5B41B8CE85E00C7A331 /* AppDelegate.swift */,
+				B389E5B61B8CE85E00C7A331 /* ViewController.swift */,
+				B389E5B81B8CE85E00C7A331 /* Main.storyboard */,
+				B389E5BB1B8CE85E00C7A331 /* Images.xcassets */,
+				B389E5BD1B8CE85E00C7A331 /* LaunchScreen.xib */,
+				B389E5B21B8CE85E00C7A331 /* Supporting Files */,
+				B389E5F21B8CF0DC00C7A331 /* FlurryAdDelegate.h */,
+				B389E5F31B8CF12000C7A331 /* FlurryAdError.h */,
+				B389E5F41B8CF16300C7A331 /* FlurryAds.h */,
+				B389E5F51B8CF1C100C7A331 /* FlurryAdTargeting.h */,
+			);
+			path = adentification;
+			sourceTree = "<group>";
+		};
+		B389E5B21B8CE85E00C7A331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B389E5B31B8CE85E00C7A331 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B389E5C71B8CE85E00C7A331 /* adentificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B389E5CA1B8CE85E00C7A331 /* adentificationTests.swift */,
+				B389E5C81B8CE85E00C7A331 /* Supporting Files */,
+			);
+			path = adentificationTests;
+			sourceTree = "<group>";
+		};
+		B389E5C81B8CE85E00C7A331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B389E5C91B8CE85E00C7A331 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B389E5AE1B8CE85E00C7A331 /* adentification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B389E5CE1B8CE85E00C7A331 /* Build configuration list for PBXNativeTarget "adentification" */;
+			buildPhases = (
+				B389E5AB1B8CE85E00C7A331 /* Sources */,
+				B389E5AC1B8CE85E00C7A331 /* Frameworks */,
+				B389E5AD1B8CE85E00C7A331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adentification;
+			productName = adentification;
+			productReference = B389E5AF1B8CE85E00C7A331 /* adentification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B389E5C31B8CE85E00C7A331 /* adentificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B389E5D11B8CE85E00C7A331 /* Build configuration list for PBXNativeTarget "adentificationTests" */;
+			buildPhases = (
+				B389E5C01B8CE85E00C7A331 /* Sources */,
+				B389E5C11B8CE85E00C7A331 /* Frameworks */,
+				B389E5C21B8CE85E00C7A331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B389E5C61B8CE85E00C7A331 /* PBXTargetDependency */,
+			);
+			name = adentificationTests;
+			productName = adentificationTests;
+			productReference = B389E5C41B8CE85E00C7A331 /* adentificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B389E5A71B8CE85E00C7A331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Shuyu Chen";
+				TargetAttributes = {
+					B389E5AE1B8CE85E00C7A331 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B389E5C31B8CE85E00C7A331 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B389E5AE1B8CE85E00C7A331;
+					};
+				};
+			};
+			buildConfigurationList = B389E5AA1B8CE85E00C7A331 /* Build configuration list for PBXProject "adentification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B389E5A61B8CE85E00C7A331;
+			productRefGroup = B389E5B01B8CE85E00C7A331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B389E5AE1B8CE85E00C7A331 /* adentification */,
+				B389E5C31B8CE85E00C7A331 /* adentificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B389E5AD1B8CE85E00C7A331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B389E5BA1B8CE85E00C7A331 /* Main.storyboard in Resources */,
+				B389E5BF1B8CE85E00C7A331 /* LaunchScreen.xib in Resources */,
+				B389E5BC1B8CE85E00C7A331 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389E5C21B8CE85E00C7A331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B389E5AB1B8CE85E00C7A331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B389E5B71B8CE85E00C7A331 /* ViewController.swift in Sources */,
+				B389E5B51B8CE85E00C7A331 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B389E5C01B8CE85E00C7A331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B389E5CB1B8CE85E00C7A331 /* adentificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B389E5C61B8CE85E00C7A331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B389E5AE1B8CE85E00C7A331 /* adentification */;
+			targetProxy = B389E5C51B8CE85E00C7A331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B389E5B81B8CE85E00C7A331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B389E5B91B8CE85E00C7A331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B389E5BD1B8CE85E00C7A331 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B389E5BE1B8CE85E00C7A331 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B389E5CC1B8CE85E00C7A331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B389E5CD1B8CE85E00C7A331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B389E5CF1B8CE85E00C7A331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adentification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adentification",
+					/Users/sc4251/Downloads/Flurry,
+					iPhone,
+					SDK,
+					viPhone,
+					"6-2/Flurry-iOS-6.7.0/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "adentification-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		B389E5D01B8CE85E00C7A331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adentification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adentification",
+					/Users/sc4251/Downloads/Flurry,
+					iPhone,
+					SDK,
+					viPhone,
+					"6-2/Flurry-iOS-6.7.0/FlurryAds",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "adentification-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B389E5D21B8CE85E00C7A331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = adentificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adentification.app/adentification";
+			};
+			name = Debug;
+		};
+		B389E5D31B8CE85E00C7A331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = adentificationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adentification.app/adentification";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B389E5AA1B8CE85E00C7A331 /* Build configuration list for PBXProject "adentification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389E5CC1B8CE85E00C7A331 /* Debug */,
+				B389E5CD1B8CE85E00C7A331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B389E5CE1B8CE85E00C7A331 /* Build configuration list for PBXNativeTarget "adentification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389E5CF1B8CE85E00C7A331 /* Debug */,
+				B389E5D01B8CE85E00C7A331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B389E5D11B8CE85E00C7A331 /* Build configuration list for PBXNativeTarget "adentificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B389E5D21B8CE85E00C7A331 /* Debug */,
+				B389E5D31B8CE85E00C7A331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B389E5A71B8CE85E00C7A331 /* Project object */;
+}
